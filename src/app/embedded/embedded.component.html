@@ -1,0 +1,11 @@
+<!-- <div style=" width: 100%;" [ngStyle]="{ 'height': (screenHeight-150)+ 'px' }" #reportContainer>
+
+</div>
+ -->
+ <powerbi-report [embedConfig]="reportConfig" [cssClassName]="reportClass" [eventHandlers]="eventHandlersMap">
+</powerbi-report>
+<div>
+    <button type="button" (click)="showBIReport()">
+        Show/Hidden
+    </button>
+</div>
