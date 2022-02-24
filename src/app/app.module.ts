@@ -36,7 +36,7 @@ export function MSALInstanceFactory(): IPublicClientApplication {
     },
     cache: {
       cacheLocation: BrowserCacheLocation.LocalStorage,
-      storeAuthStateInCookie: isIE, // set to true for IE 11
+      storeAuthStateInCookie: isIE, // set to true for IE 11,
     },
     system: {
       loggerOptions: {

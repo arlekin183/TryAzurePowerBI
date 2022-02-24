@@ -15,7 +15,8 @@ export class EmbeddedComponent {
   reportConfig: IReportEmbedConfiguration = {
     type: "report",
     id: 'fa077a48-c124-4be2-b54d-ff0e9d3596f4', //<Report Id>
-    embedUrl: 'https://app.powerbi.com/reportEmbed?reportId=fa077a48-c124-4be2-b54d-ff0e9d3596f4&groupId=6fcbe016-8581-4d4d-becc-5f2025efb0b1',
+    embedUrl: 'https://app.powerbi.com/groups/6fcbe016-8581-4d4d-becc-5f2025efb0b1/reports/fa077a48-c124-4be2-b54d-ff0e9d3596f4/ReportSection1481a410b40081847e28?noSignUpCheck=1',
+    // embedUrl: 'https://app.powerbi.com/reportEmbed?reportId=fa077a48-c124-4be2-b54d-ff0e9d3596f4&groupId=6fcbe016-8581-4d4d-becc-5f2025efb0b1',
     tokenType: models.TokenType.Embed,
     accessToken: '', // Keep as empty string, null or undefined
     // hostname: "https://app.powerbi.com"
